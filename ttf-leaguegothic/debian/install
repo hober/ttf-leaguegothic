@@ -1,0 +1,2 @@
+*.otf usr/share/fonts/truetype/ttf-leaguegothic
+debian/bug/* usr/share/bug/ttf-leaguegothic

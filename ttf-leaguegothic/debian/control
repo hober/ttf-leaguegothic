@@ -1,0 +1,17 @@
+Source: ttf-leaguegothic
+Section: fonts
+Priority: optional
+Maintainer: Edward O'Connor <hober0@gmail.com>
+Uploaders: Edward O'Connor <hober0@gmail.com>
+Build-Depends: debhelper (>= 7.2.3)
+Standards-Version: 3.8.4
+Homepage: http://www.theleagueofmoveabletype.com/fonts/7-league-gothic
+Vcs-git: git://github.com/hober/ttf-leaguegothic.git
+Vcs-Browser: http://github.com/hober/ttf-leaguegothic
+
+Package: ttf-leaguegothic
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: x-ttcidfont-conf | fontconfig
+Description: A condensed gothic from the League of Movable Type.
+ It is released under the SIL Open Font License.
